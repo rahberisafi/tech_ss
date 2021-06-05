@@ -1,13 +1,75 @@
-body {
-  margin: 0;
-  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
-    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
-    sans-serif;
-  -webkit-font-smoothing: antialiased;
-  -moz-osx-font-smoothing: grayscale;
+.App {
+  font-family: sans-serif;
+  text-align: center;
 }
 
-code {
-  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
-    monospace;
+body {
+  padding-top: 4px;
+}
+
+
+h2 {
+  text-align: center;
+  color: #eb6126;
+}
+
+h3 {
+  color: white;
+}
+
+li {
+  color: grey;
+  margin: 12px;
+}
+
+hr.new1 {
+  border-top: 1px dashed grey;
+}
+
+.button-edits {
+  margin: 40px;
+}
+
+.card-width {
+  color: white;
+  padding: 20px;
+  margin: 40px;
+}
+
+.create-post {
+  margin-top: 0;
+}
+
+.edit-button {
+  position: absolute;
+  top: 20px;
+  right: 55px;
+  color: #eb6126;
+}
+
+.delete-button {
+  position: absolute;
+  top: 20px;
+  right: 20px;
+  color: #eb6126;
+}
+
+.cancel-button {
+  position: absolute;
+  top: 545px;
+  left: 90px;
+}
+
+.cancel-update-button {
+  position: absolute;
+  top: 545px;
+  left: 160px;
+}
+
+.button-css:active {
+  transform: translateY(3px);
+}
+
+.button-css:focus {
+  outline: 0;
 }
